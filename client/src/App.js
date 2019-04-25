@@ -31,7 +31,10 @@ class App extends Component {
   render() {
     console.log("HELP");
     return (
-      <div>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
         <h1>Hello, worldssss!</h1>
         <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
       </div>

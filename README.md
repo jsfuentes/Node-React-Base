@@ -1,17 +1,11 @@
 # Node-React-Base
 This project contains two parts: a React frontend created using react-starter and a NodeJS/Express backend created using express generator. There have been slight modifications to both that proxy the React requests to the express backend. 
 
+Run with Docker ez
 ## Setup
-In both the client and backend folders run:
+In main folder, simply run 
 ```
-npm install
+docker-compose build 
+docker-compose up
 ```
-In the main folder:
-```
-npm install
-```
-
-Finally, in the main folder, run both servers with the frontend available at localhost:3000 with 
-```
-npm start
-```
+Then you can access the server on port 3001 or the client on port 3000. 
