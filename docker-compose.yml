@@ -1,13 +1,13 @@
 version: '3'
 
 services:
-  react_frontend:
+  react_base:
     image: react_base
     ports:
       - "3000:3000"
     volumes:
       - ./client:/app
-  node_backend:
+  node_base:
     image: node_base
     ports: 
       - "3001:3001"

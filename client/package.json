@@ -11,12 +11,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn build && rm -rf ../backend/build && cp ./build ../backend/build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "http://node_backend:3001",
+  "proxy": "http://node_base:3001",
   "browserslist": {
     "production": [
       ">0.2%",

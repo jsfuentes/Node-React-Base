@@ -13,5 +13,7 @@ RUN yarn install
 # Copy the current directory contents into the container at /app
 COPY . .
 
+EXPOSE 3001
+
 # Run app.py when the container launches
 CMD ["yarn", "start"]
