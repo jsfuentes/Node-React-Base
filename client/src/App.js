@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   render() {
-    console.log("HELP");
+    console.log("HELPv2");
     return (
       <div className="App">
         <header className="App-header">
