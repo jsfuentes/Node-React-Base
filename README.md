@@ -1,3 +1,5 @@
+# Currently Deprecated Use My [Node-Base](https://github.com/jsfuentes/Node-Base) and [React-Base](https://github.com/jsfuentes/React-Base) instead since its better for them to be independent
+
 # Node-React-Base
 This project contains two parts: a React frontend created using [create-react-app](https://github.com/facebook/create-react-app) and a NodeJS/Express backend created using express generator. There have been slight modifications to both that proxy the React requests to the express backend. 
 
